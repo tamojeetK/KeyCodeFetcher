@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-div{
+    border: 4px solid black;
+    background-color: rgb(255, 34, 0);
+    width: 50vw;
+    height: 60vw;
+}
+
+
+.main-div h1, h2, h3, h4{
+    text-align: center;
+    font-family: monument, Arial, Helvetica, sans-serif;
+    /* border: solid blue; */
+}
+.main-div h1{
+    font-size: 5vw;
+    white-space: nowrap;
+    margin-top: 4vw;
+}
+
+.main-div h2{
+    font-size: 10vw;
+    
+}
+.main-div h3{
+    font-size: 5vw;
+    font-weight: 800;
+    color: royalblue;
+    -webkit-text-stroke: 0.5px #000 ;
+    text-transform: uppercase;
+
+}
+.main-div h4{
+    font-size: 2.5vw;
+    font-weight: 800;
+}
+
+.display-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7vw;
+
+
+}
